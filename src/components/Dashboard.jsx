@@ -52,7 +52,7 @@ const Dashboard = () => {
                 </div>
               </div>
               <div className='h-full flex flex-col justify-between items-center '>
-                <div className='graph-container w-40 flex flex-col items-center relative'>
+                <div className='graph-container w-40 flex flex-col items-center relative select-none'>
                   <p className='text-red font-semibold text-sm ml-[-5px] mb-[-5px]'>{'+2%'}</p>
                   <img className='h-7 w-auto ml-[-5px]' src="/ic_arrow_up.svg" alt="" />
                   <div className='graph w-40 h-auto absolute mt-4'>
@@ -75,7 +75,7 @@ const Dashboard = () => {
               </div>
               <div className='h-full flex flex-col justify-between items-center '>
 
-                <div className='graph-container relative w-40 flex flex-col items-center'>
+                <div className='graph-container relative w-40 flex flex-col items-center select-none'>
                   <p className='text-red font-semibold text-sm ml-[-5px] mb-[-5px]'>{'+5%'}</p>
                   <img className='h-7 w-auto ml-[-5px]' src="/ic_arrow_up.svg" alt="" />
                   <div className='graph w-40 h-auto absolute mt-4'>
@@ -91,7 +91,7 @@ const Dashboard = () => {
           <div className='w-full announcements-container border-2 border-gray/10 rounded-2xl py-5 mb-8'>
             <div className="mx-6 max-w-full flex justify-between items-center pb-5">
               <div className="text-xl font-medium ">Announcement</div>
-              <div className='flex items-center border-2 border-gray/10 rounded-md px-2 py-1 gap-2'>
+              <div className='flex items-center border-2 border-gray/10 rounded-md px-2 py-1 gap-2 cursor-pointer'>
                 <div className=" text-gray text-sm font-normal font-roboto">Today, 13 Sep 2021</div>
                 <img className='w-6 opacity-[50%]' src="/ic_down.svg" alt="" />
               </div>
@@ -106,8 +106,8 @@ const Dashboard = () => {
                 </div>
                 <div className='absolute xs:static bottom-3 right-4'>
                   <div className='flex gap-4'>
-                    <img className='w-[20px]' src="/ic_pin.svg" alt="" />
-                    <img className='w-[20px]' src="/ic_ellipsis.svg" alt="" />
+                    <img className='w-[20px] cursor-pointer ' src="/ic_pin.svg" alt="" />
+                    <img className='w-[20px] cursor-pointer' src="/ic_ellipsis.svg" alt="" />
                   </div>
                 </div>
               </div>
@@ -119,8 +119,8 @@ const Dashboard = () => {
                 </div>
                 <div className='absolute xs:static bottom-3 right-4'>
                   <div className='flex gap-4'>
-                    <img className='w-[20px] opacity-50' src="/ic_pin.svg" alt="" />
-                    <img className='w-[20px]' src="/ic_ellipsis.svg" alt="" />
+                    <img className='w-[20px] cursor-pointer opacity-50' src="/ic_pin.svg" alt="" />
+                    <img className='w-[20px] cursor-pointer' src="/ic_ellipsis.svg" alt="" />
                   </div>
                 </div>
               </div>
@@ -133,15 +133,15 @@ const Dashboard = () => {
                 <div className='absolute xs:static bottom-3 right-4'>
 
                   <div className='flex gap-4'>
-                    <img className='w-[20px] opacity-50' src="/ic_pin.svg" alt="" />
-                    <img className='w-[20px]' src="/ic_ellipsis.svg" alt="" />
+                    <img className='w-[20px] cursor-pointer opacity-50' src="/ic_pin.svg" alt="" />
+                    <img className='w-[20px] cursor-pointer' src="/ic_ellipsis.svg" alt="" />
                   </div>
                 </div>
               </div>
 
             </div>
 
-            <div className="w-full text-center text-red font-medium pt-4 border-t border-gray/20 text-xl xs:text-base">See All Announcement</div>
+            <div className="w-max m-auto text-center text-red font-medium pt-4 border-t border-gray/20 text-xl xs:text-base cursor-pointer">See All Announcement</div>
           </div>
         </div>
 
@@ -179,7 +179,7 @@ const Dashboard = () => {
 
             <div className="mx-6 max-w-full flex justify-between items-center py-5">
               <div className="text-xl font-medium ">Upcoming Schedule</div>
-              <div className='flex items-center border-2 border-gray/10 rounded-md px-2 py-1 gap-2'>
+              <div className='flex items-center border-2 border-gray/10 rounded-md px-2 py-1 gap-2 cursor-pointer'>
                 <div className=" text-gray text-sm font-normal font-roboto">Today, 13 Sep 2021</div>
                 <img className='w-6 opacity-[50%]' src="/ic_down.svg" alt="" />
               </div>
@@ -195,9 +195,9 @@ const Dashboard = () => {
                     <div className="text-lg">Review candidate applications</div>
                     <div className="text-sm xs:text-xs text-gray/70 font-medium font-roboto">Today - 11:30 AM</div>
                   </div>
-                   
-                    <img className='w-[20px] absolute xs:static bottom-3 right-4' src="/ic_ellipsis.svg" alt="" />
-                    
+
+                  <img className='w-[20px] cursor-pointer absolute xs:static bottom-3 right-4' src="/ic_ellipsis.svg" alt="" />
+
                 </div>
               </div>
 
@@ -210,7 +210,7 @@ const Dashboard = () => {
                     <div className="text-sm xs:text-xs text-gray/70 font-medium font-roboto">Today - 10:30 AM</div>
                   </div>
 
-                  <img className='w-[20px] absolute xs:static bottom-3 right-4' src="/ic_ellipsis.svg" alt="" />
+                  <img className='w-[20px] cursor-pointer absolute xs:static bottom-3 right-4' src="/ic_ellipsis.svg" alt="" />
 
                 </div>
 
@@ -220,14 +220,14 @@ const Dashboard = () => {
                     <div className="text-sm xs:text-xs text-gray/70 font-medium font-roboto">Today - 9:15 AM</div>
                   </div>
 
-                  <img className='w-[20px] absolute xs:static bottom-3 right-4' src="/ic_ellipsis.svg" alt="" />
+                  <img className='w-[20px] cursor-pointer absolute xs:static bottom-3 right-4' src="/ic_ellipsis.svg" alt="" />
 
                 </div>
               </div>
 
             </div>
 
-            <div className="w-full text-center text-red font-medium py-4 border-t border-gray/20 text-xl xs:text-base">Create a New Schedule</div>
+            <div className="w-max m-auto text-center text-red font-medium py-4 border-t border-gray/20 text-xl xs:text-base cursor-pointer">Create a New Schedule</div>
           </div>
         </div>
       </div>
@@ -275,9 +275,9 @@ const Dashboard = () => {
                 {/* absolute positioned element */}
                 <button
                   onClick={() => { setShowScheduleModal(false) }}
-                  className='absolute top-0 right-0 p-4 mt-2 mr-4'
+                  className='absolute top-0 right-0 p-4 mt-2 mr-4 hover:scale-[1.1]'
                 >
-                  <img className='w-[20px]' src="/ic_x_close.svg" alt="" />
+                  <img className='w-[20px] cursor-pointer' src="/ic_x_close.svg" alt="" />
                 </button>
               </Box>
             </Fade>
