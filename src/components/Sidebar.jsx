@@ -12,25 +12,25 @@ const Sidebar = () => {
           <h3 className="font-['Roboto'] uppercase text-gray/50 font-medium text-sm">main menu</h3>
 
           <div className='flex flex-col gap-10 md:gap-7'>
-            <div className='flex gap-4'>
+            <div className='flex gap-4 items-center cursor-pointer'>
               <img src="/ic_dashboard.svg" alt="" />
               <p className="xs:hidden md:inline text-red font-medium text-lg">Dashboard</p>
             </div>
-            <div className='flex gap-4'>
+            <div className='flex gap-4 items-center cursor-pointer'>
               <img src="/ic_recruitment.svg" alt="" />
-              <p className="xs:hidden md:inline text-gray font-medium text-lg">Recruitment</p>
+              <p className="xs:hidden md:inline text-gray font-medium text-lg hover:text-black">Recruitment</p>
             </div>
-            <div className='flex gap-4'>
+            <div className='flex gap-4 items-center cursor-pointer'>
               <img src="/ic_calendar.svg" alt="" />
-              <p className="xs:hidden md:inline text-gray font-medium text-lg">Schedule</p>
+              <p className="xs:hidden md:inline text-gray font-medium text-lg hover:text-black">Schedule</p>
             </div>
-            <div className='flex gap-4'>
+            <div className='flex gap-4 items-center cursor-pointer'>
               <img src="/ic_employee.svg" alt="" />
-              <p className="xs:hidden md:inline text-gray font-medium text-lg">Employee</p>
+              <p className="xs:hidden md:inline text-gray font-medium text-lg hover:text-black">Employee</p>
             </div>
-            <div className='flex gap-4'>
+            <div className='flex gap-4 items-center cursor-pointer'>
               <img src="/ic_department.svg" alt="" />
-              <p className="xs:hidden md:inline text-gray font-medium text-lg">Department</p>
+              <p className="xs:hidden md:inline text-gray font-medium text-lg hover:text-black">Department</p>
             </div>
           </div>
         </div>
@@ -40,13 +40,13 @@ const Sidebar = () => {
 
           <div className='flex flex-col gap-10 md:gap-7'>
 
-            <div className='flex gap-4'>
+            <div className='flex gap-4 items-center cursor-pointer'>
               <img src="/ic_support.svg" alt="" />
-              <p className="xs:hidden md:inline text-gray font-medium text-lg">Support</p>
+              <p className="xs:hidden md:inline text-gray font-medium text-lg hover:text-black">Support</p>
             </div>
-            <div className='flex gap-4'>
+            <div className='flex gap-4 items-center cursor-pointer'>
               <img src="/ic_settings.svg" alt="" />
-              <p className="xs:hidden md:inline text-gray font-medium text-lg">Settings</p>
+              <p className="xs:hidden md:inline text-gray font-medium text-lg hover:text-black">Settings</p>
             </div>
           </div>
         </div>
