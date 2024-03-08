@@ -8,3 +8,44 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+:root{
+  font-size: 16px;
+}
+
+@media screen and (max-width: 375px) {
+  :root{
+    font-size: 6px;
+  }
+}
+@media screen and (max-width: 645px) {
+  :root{
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 850px) {
+  :root{
+    font-size: 10px;
+  }
+}
+
+/* min width */
+/* over 769px */
+@media screen and (min-width: 851px) {
+  :root{
+    font-size: 10px;
+  }
+}
+/* over 1280px */
+@media screen and (min-width: 1280px) {
+  :root{
+    font-size: 12px;
+  }
+}
+
+/* over 1420px */
+@media screen and (min-width: 1420px) {
+  :root{
+    font-size: 18px;
+  }
+}

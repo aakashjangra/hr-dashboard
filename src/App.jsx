@@ -8,7 +8,7 @@ function App() {
   return (
     <div className='w-screen h-screen flex'>
       <Sidebar />
-      <div className='h-full w-full flex flex-col'>
+      <div className='h-full w-full pl-[5%] xs:pl-12 flex flex-col'>
         <Navbar />
         <Dashboard />
       </div>
