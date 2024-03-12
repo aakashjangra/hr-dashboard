@@ -46,6 +46,6 @@
 /* over 1420px */
 @media screen and (min-width: 1420px) {
   :root{
-    font-size: 18px;
+    font-size: 16px;
   }
 }
